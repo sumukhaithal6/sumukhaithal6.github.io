@@ -1,7 +1,7 @@
 ---
 title: "Robustness to Augmentations as a Generalization Metric"
 collection: publications
-permalink: /publication/robustness_to_augmentations_as_a_generalization_metric
+permalink: /publications/robustness_to_augmentations_as_a_generalization_metric
 # date: 2020
 authors : "Sumukh Aithal K*, Dhruva Kashyap*, Natarajan Subramanyam" 
 venue: '1st Runner Up in Predicting Generalization in Deep Learning, NeurIPS 2020 Competition Track'
