@@ -1,7 +1,7 @@
 ---
 title: "Domain Shift in Capsule Networks "
 collection: publications
-permalink: /publication/domain_shift_capsule_networks
+permalink: /publications/domain_shift_capsule_networks
 # date: 2020
 authors : "Rajath S*, Sumukh Aithal K*, Natarajan Subramanyam" 
 venue: '10th International Conference on Pattern Recognition Applications and Methods (ICPRAM)'
