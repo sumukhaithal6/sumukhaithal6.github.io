@@ -11,8 +11,8 @@ urlcolor: blue
 <br/>
 
 [**S<sup>3</sup>VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation**](/publications/s3_vaada)<br/>
-Accepted at ICCV 2021! (More details coming Soon)<br/>
-<br/>
+Accepted at **ICCV 2021**! (More details coming Soon)<br/>
+<!-- <br/> -->
 <!-- <br/> -->
 
 [**Robustness to Augmentations as a Generalization Metric**](/publications/robustness_to_augmentations_as_a_generalization_metric)<br/>
