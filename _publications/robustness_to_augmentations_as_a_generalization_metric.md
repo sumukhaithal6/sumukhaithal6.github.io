@@ -25,12 +25,12 @@ The model should confidently predict the augmented input if it has learned the c
 For every sample, we augment the input and then compare the class prediction of the model for the original input and augmented input. If the class
 prediction is the same even after the input is augmented, then we add a penalty equal to the difference between probabilities of the predicted class
 on the original and augmented input.
-![Algorithm](files/algorithm.png)
+![Algorithm](../files/algorithm.png)
 ### Results
-The metric used in the competition was Conditional Mutual Information as described in [1]().\
+The metric used in the competition was Conditional Mutual Information as described in [this paper](https://arxiv.org/pdf/2012.07976.pdf).\
 **Higher the score, the better the generalization metric**.\
-![Penalties for misclassification on each augmentation and scores obtained on 3 submissions.](files/results.png)\
-![Private Leaderboard (Team Always Generalize)](files/private_lb.png)
+![Penalties for misclassification on each augmentation and scores obtained on 3 submissions.](../files/results.png)\
+![Private Leaderboard (Team Always Generalize)](../files/private_lb.png)
 ### Conclusion
 This method tests the model with augmented samples from the training data and penalizes models that are unable to correctly classify augmented
 samples. We have also provided an insight into the role of augmentations in testing the generalizability of a model.
