@@ -13,12 +13,13 @@ Law enforcement officers need better methods to combat criminals using hidden me
 ## Solution
 For a given image, the model should predict the score that indicates how likely this image contains hidden data. the higher the score, the more it is assumed that image contains secret data.\
 The dataset consisted of large number of images, both unaltered and altered with one of three different steganography algorithms (JMiPOD, JUNIWARD, UERD).
-<p>&nbsp;</p>
-We developed a EfficientNet B7 model to classify the image as one of 4 classes (Unaltered or Cover, JMiPOD, JUNIWARD, UERD). We used label smoothing and finetuned the optimizer and scheduler to get the best performance. For our final submission, we ensembled different models trained on different train-validation splits. We also experimented with different augmentations.
-<p>&nbsp;</p>
+
+We developed a EfficientNet B7 model to classify the image as one of 4 classes (Unaltered or Cover, JMiPOD, JUNIWARD, UERD). We used label smoothing and finetuned the optimizer and scheduler to get the best performance. For our final submission, we ensembled different models trained on different train-validation splits. We also experimented with different augmentations. <br/>
 The metric used for the competition was Weighted-AUC. (Higher is better)
-<p>&nbsp;</p>
-**Public Leaderboard** Score: 0.944 and Rank: 5/1095 \
+<br/>
+<br/>
+
+**Public Leaderboard** Score: 0.944 and Rank: 5/1095\
 **Private Leaderboard** Score: 0.924 and Rank: 32/1095 
 
 ### **Won a Silver medal for being the Top 3% of all teams. Ranked 32/1095 teams**

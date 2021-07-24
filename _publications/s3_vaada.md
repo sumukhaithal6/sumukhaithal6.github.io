@@ -1,5 +1,5 @@
 ---
-title: "Domain Shift in Capsule Networks "
+title: "S<sup>3</sup>VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation"
 collection: publications
 permalink: /publications/s3_vaada
 # date: 2020

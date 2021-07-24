@@ -10,12 +10,12 @@ urlcolor: blue
 </style>
 <br/>
 
-[**S<sup>3</sup>VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation**](/publications/s3_vaada.md)<br/>
+[**S<sup>3</sup>VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation**](/publications/s3_vaada)<br/>
 Accepted at ICCV 2021! (More details coming Soon)<br/>
 <br/>
-<br/>
+<!-- <br/> -->
 
-[**Robustness to Augmentations as a Generalization Metric**](/publications/robustness_to_augmentations_as_a_generalization_metric.md)<br/>
+[**Robustness to Augmentations as a Generalization Metric**](/publications/robustness_to_augmentations_as_a_generalization_metric)<br/>
 **Sumukh Aithal K**\*, Dhruva Kashyap *, Natarajan Subramanyam <br/>
 1st Runner Up in Predicting Generalization in Deep Learning, **NeurIPS 2020 Competition Track** 
 \[[<span style="color:blue">Paper</span>](https://arxiv.org/abs/2101.06459)\] \[[<span style="color:blue">Video</span>](https://slideslive.com/38942495/robustness-to-augmentations-as-a-generalization-metric)\] 
@@ -34,7 +34,7 @@ Accepted at ICCV 2021! (More details coming Soon)<br/>
 </details>
 
 <br/>
-<br/>
+<!-- <br/> -->
 
 **[Domain Shift in Capsule Networks](/publications/domain_shift_capsule_networks)**<br/>
 Rajath S\*, **Sumukh Aithal K**\*, Natarajan Subramanyam <br/>
