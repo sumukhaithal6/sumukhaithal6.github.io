@@ -5,7 +5,7 @@ network. Worked on low light enhancement techniques to improve the model’s acc
 <b>Awarded Best Completed Submission winner in the Intel - PESU Student Contest.</b>"
 collection: projects
 ---
-## [**Final Presentation**](sumukhaithal6.github.io/files/Intel_Adas.pdf)
+## [**Final Presentation**](../../files/Intel_Adas.pdf)
 ### One Sentence Summary
 Performed Semantic Segmentation on the Indian Driving Dataset using custom trained DeepLabV3+ network and worked on low light enhancement techniques to improve the model’s accuracy.
 ## Problem Statement

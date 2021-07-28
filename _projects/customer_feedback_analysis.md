@@ -19,5 +19,5 @@ The segmented reviews are then classified into categories or buckets, which spec
 5. Ranking\
 Reviews are to be ranked in the order or severity, such that the most severe issue is ranked first, and the least severe is ranked last.
 
-## [Project Report](sumukhaithal6.github.io/files/customer_feedback_analysis/Customer_Feedback_Model.pdf)
-## [Project Presentation](sumukhaithal6.github.io/files/customer_feedback_analysis/CritiQali.pdf)
+## [Project Report](../../files/customer_feedback_analysis/Customer_Feedback_Model.pdf)
+## [Project Presentation](../../files/customer_feedback_analysis/CritiQali.pdf)
