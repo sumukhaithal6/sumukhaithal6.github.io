@@ -11,9 +11,36 @@ urlcolor: blue
 <br/>
 
 [**S<sup>3</sup>VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation**](/publications/s3_vaada)<br/>
-Accepted at **ICCV 2021**! (More details coming Soon)<br/>
+Harsh Rangwani, Arihant Jain*, **Sumukh K Aithal\***, R. Venkatesh Babu <br/>
+In International Conference on Computer Vision (**ICCV**) 2021. [[Project Website]](https://sites.google.com/iisc.ac.in/s3vaada-iccv2021/)
+<details>
+  <summary>One Sentence Summary</summary>
+  
+  Informative sample selection and effective adaptation through S<sup>3</sup>VAADA can lead to effective gains by using small amount of labeled target data.   
+
+</details>
+<!-- <br/> -->
+<details>
+  <summary>Abstract</summary>
+
+Unsupervised domain adaptation (DA) methods have focused on achieving maximal performance through aligning features from source and target domains without using labeled data in the target domain. Whereas, in the real-world scenario’s it might be feasible to get labels for a small proportion of target data. In these scenarios, it is important to select maximally-informative samples to label and find an effective way to combine them with the existing knowledge from source data. Towards achieving this, we propose S3VAADA which i) introduces a novel submodular criterion to select a maximally informative subset to label and ii) enhances a cluster-based DA procedure through novel improvements to effectively utilize all the available data for improving generalization on target. Our approach consistently outperforms the competing state-of-the-art approaches on datasets with varying degrees of domain shifts. 
+</details>
 <!-- <br/> -->
 <!-- <br/> -->
+
+[**Methods and Analysis of The First Competition in Predicting Generalization of Deep Learning**](/publications/pgdl)<br/>
+Yiding Jiang, Parth Natekar, Manik Sharma, **Sumukh K Aithal**, Dhruva Kashyap, Natarajan Subramanyam, Carlos Lassance, Daniel M. Roy, Gintare Karolina Dziugaite, Suriya Gunasekar, Isabelle Guyon, Pierre Foret, Scott Yak, Hossein Mobahi, Behnam Neyshabur, Samy Bengio <br/>
+**PMLR: NeurIPS 2020 Competition and Demonstration Track, 2020** [[Paper]](proceedings.mlr.press/v133/jiang21a/jiang21a.pdf)
+<details>
+  <summary>One Sentence Summary</summary>
+    A summary of the solutions of the top-three teams in the PGDL Competition.
+</details>
+<!-- <br/> -->
+<details>
+  <summary>Abstract</summary>
+
+  Deep learning has been recently successfully applied to an ever larger number of problems, ranging from pattern recognition to complex decision making. However, several concerns have been raised, including guarantees of good generalization, which is of foremost importance. Despite numerous attempts, conventional statistical learning approaches fall short of providing a satisfactory explanation on why deep learning works. In a competition hosted at the Thirty-Fourth Conference on Neural Information Processing Systems (NeurIPS 2020), we invited the community to design robust and general complexity measures that can accurately predict the generalization of models. In this paper, we describe the competition design, the protocols, and the solutions of the top-three teams at the competition in details. In addition, we discuss the outcomes, common failure modes, and potential future directions for the competition.
+</details>
 
 [**Robustness to Augmentations as a Generalization Metric**](/publications/robustness_to_augmentations_as_a_generalization_metric)<br/>
 **Sumukh Aithal K**\*, Dhruva Kashyap *, Natarajan Subramanyam <br/>
