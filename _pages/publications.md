@@ -30,7 +30,7 @@ Unsupervised domain adaptation (DA) methods have focused on achieving maximal pe
 
 [**Methods and Analysis of The First Competition in Predicting Generalization of Deep Learning**](/publications/pgdl)<br/>
 Yiding Jiang, Parth Natekar, Manik Sharma, **Sumukh K Aithal**, Dhruva Kashyap, Natarajan Subramanyam, Carlos Lassance, Daniel M. Roy, Gintare Karolina Dziugaite, Suriya Gunasekar, Isabelle Guyon, Pierre Foret, Scott Yak, Hossein Mobahi, Behnam Neyshabur, Samy Bengio <br/>
-**PMLR: NeurIPS 2020 Competition and Demonstration Track, 2020** [[Paper]](proceedings.mlr.press/v133/jiang21a/jiang21a.pdf)
+**PMLR: NeurIPS 2020 Competition and Demonstration Track, 2020** [[Paper]](https://proceedings.mlr.press/v133/jiang21a/jiang21a.pdf)
 <details>
   <summary>One Sentence Summary</summary>
     A summary of the solutions of the top-three teams in the PGDL Competition.
