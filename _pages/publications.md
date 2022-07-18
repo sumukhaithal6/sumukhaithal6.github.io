@@ -12,7 +12,7 @@ urlcolor: blue
 
 **A Closer Look at Smoothness at Domain Adversarial Training**<br/>
 Harsh Rangwani\*, **Sumukh K Aithal\***, Mayank Mishra,  Arihant Jain, R. Venkatesh Babu <br/>
-In International Conference on Machine Learning (**ICML**) 2022. [[Paper]](https://arxiv.org/abs/2206.08213) [[Code]](https://github.com/val-iisc/SDAT) [[Poster]](https://sumukhaithal6.github.io/files/SDAT-ICML-2022-Slides.pdf) [[Slides]](https://sumukhaithal6.github.io/files/SDAT-ICML-2022-Poster.pdf)
+In International Conference on Machine Learning (**ICML**) 2022. [[Paper]](https://arxiv.org/abs/2206.08213) [[Code]](https://github.com/val-iisc/SDAT) [[Slides]](https://sumukhaithal6.github.io/files/SDAT-ICML-2022-Slides.pdf) [[Poster]](https://sumukhaithal6.github.io/files/SDAT-ICML-2022-Poster.pdf)
 <details>
   <summary>One Sentence Summary</summary>
  Smooth Minima with respect to task loss leads to effective generalization on the target domain. 
