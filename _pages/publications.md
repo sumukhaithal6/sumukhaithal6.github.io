@@ -10,6 +10,22 @@ urlcolor: blue
 </style>
 <br/>
 
+**A Closer Look at Smoothness at Domain Adversarial Training**<br/>
+Harsh Rangwani\*, **Sumukh K Aithal\***, Mayank Mishra,  Arihant Jain, R. Venkatesh Babu <br/>
+In International Conference on Machine Learning (**ICML**) 2022. [[Paper]](https://arxiv.org/abs/2206.08213) [[Code]](https://github.com/val-iisc/SDAT) [[Poster]](https://sumukhaithal6.github.io/files/SDAT-ICML-2022-Slides.pdf) [[Slides]](https://sumukhaithal6.github.io/files/SDAT-ICML-2022-Poster.pdf)
+<details>
+  <summary>One Sentence Summary</summary>
+ Smooth Minima with respect to task loss leads to effective generalization on the target domain. 
+ 
+</details>
+<!-- <br/> -->
+<details>
+  <summary>Abstract</summary>
+Domain adversarial training has been ubiquitous for achieving invariant representations and is used widely for various domain adaptation tasks. In recent times, methods converging to smooth optima have shown improved generalization for supervised learning tasks like classification. In this work, we analyze the effect of smoothness enhancing formulations on domain adversarial training, the objective of which is a combination of task loss (eg. classification, regression etc.) and adversarial terms. We find that converging to a smooth minima with respect to (w.r.t.) task loss stabilizes the adversarial training leading to better performance on target domain. In contrast to task loss, our analysis shows that converging to smooth minima w.r.t. adversarial loss leads to sub-optimal generalization on the target domain. Based on the analysis, we introduce the Smooth Domain Adversarial Training (SDAT) procedure, which effectively enhances the performance of existing domain adversarial methods for both classification and object detection tasks. Our analysis also provides insight into the extensive usage of SGD over Adam in the community for domain adversarial training. 
+</details>
+<!-- <br/> -->
+<!-- <br/> -->
+
 [**S<sup>3</sup>VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation**](/publications/s3_vaada)<br/>
 Harsh Rangwani, Arihant Jain*, **Sumukh K Aithal\***, R. Venkatesh Babu <br/>
 In International Conference on Computer Vision (**ICCV**) 2021. [[Project Website]](https://sites.google.com/iisc.ac.in/s3vaada-iccv2021/)
