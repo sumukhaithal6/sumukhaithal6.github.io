@@ -10,11 +10,26 @@ urlcolor: blue
 </style>
 <br/>
 
+**Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data**<br/>
+Harsh Rangwani\*, **Sumukh K Aithal\***, Mayank Mishra, R. Venkatesh Babu <br/>
+In Neural Information Processing Systems (**NeurIPS**) 2022. [[Paper]](https://openreview.net/pdf?id=9DYKrsFSU2) [[Code-Coming Soon]](https://github.com/val-iisc/Saddle-LongTail) [[Slides]](https://sumukhaithal6.github.io/files/SaddleLongTail-NeurIPS22-Slides.pdf) [[Poster]](https://sumukhaithal6.github.io/files/SaddleLongTail-NeurIPS22-Poster.pdf)
+<details>
+  <summary>TLDR</summary>
+ Tail class loss landscape converges to a saddle point in imbalanced datasets and SAM can effectively escape from these solutions.
+ 
+</details>
+<!-- <br/> -->
+<details>
+  <summary>Abstract</summary>
+Real-world datasets exhibit imbalances of varying types and degrees. Several techniques based on re-weighting and margin adjustment of loss are often used to enhance the performance of neural networks, particularly on minority classes. In this work, we analyze the class-imbalanced learning problem by examining the loss landscape of neural networks trained with re-weighting and margin based techniques. Specifically, we examine the spectral density of Hessian of class-wise loss, through which we observe that the network weights converges to a saddle point in the loss landscapes of minority classes. Following this observation, we also find that optimization methods designed to escape from saddle points can be effectively used to improve generalization on minority classes. We further theoretically and empirically demonstrate that Sharpness-Aware Minimization (SAM), a recent technique that encourages convergence to a flat minima, can be effectively used to escape saddle points for minority classes. Using SAM results in a 6.2% increase in accuracy on the minority classes over the state-of-the-art Vector Scaling Loss, leading to an overall average increase of 4% across imbalanced datasets. The code is available at https://github.com/val-iisc/Saddle-LongTail.</details>
+
+<!-- <br/> -->
+<!-- <br/> -->
 **A Closer Look at Smoothness at Domain Adversarial Training**<br/>
 Harsh Rangwani\*, **Sumukh K Aithal\***, Mayank Mishra,  Arihant Jain, R. Venkatesh Babu <br/>
 In International Conference on Machine Learning (**ICML**) 2022. [[Paper]](https://arxiv.org/abs/2206.08213) [[Code]](https://github.com/val-iisc/SDAT) [[Slides]](https://sumukhaithal6.github.io/files/SDAT-ICML-2022-Slides.pdf) [[Poster]](https://sumukhaithal6.github.io/files/SDAT-ICML-2022-Poster.pdf)
 <details>
-  <summary>One Sentence Summary</summary>
+  <summary>TLDR</summary>
  Smooth Minima with respect to task loss leads to effective generalization on the target domain. 
  
 </details>
@@ -30,7 +45,7 @@ Domain adversarial training has been ubiquitous for achieving invariant represen
 Harsh Rangwani, Arihant Jain*, **Sumukh K Aithal\***, R. Venkatesh Babu <br/>
 In International Conference on Computer Vision (**ICCV**) 2021. [[Project Website]](https://sites.google.com/iisc.ac.in/s3vaada-iccv2021/)
 <details>
-  <summary>One Sentence Summary</summary>
+  <summary>TLDR</summary>
   
   Informative sample selection and effective adaptation through S<sup>3</sup>VAADA can lead to effective gains by using small amount of labeled target data.   
 
@@ -48,7 +63,7 @@ Unsupervised domain adaptation (DA) methods have focused on achieving maximal pe
 Yiding Jiang, Parth Natekar, Manik Sharma, **Sumukh K Aithal**, Dhruva Kashyap, Natarajan Subramanyam, Carlos Lassance, Daniel M. Roy, Gintare Karolina Dziugaite, Suriya Gunasekar, Isabelle Guyon, Pierre Foret, Scott Yak, Hossein Mobahi, Behnam Neyshabur, Samy Bengio <br/>
 **PMLR: NeurIPS 2020 Competition and Demonstration Track, 2020** [[Paper]](https://proceedings.mlr.press/v133/jiang21a/jiang21a.pdf)
 <details>
-  <summary>One Sentence Summary</summary>
+  <summary>TLDR</summary>
     A summary of the solutions of the top-three teams in the PGDL Competition.
 </details>
 <!-- <br/> -->
@@ -64,7 +79,7 @@ Yiding Jiang, Parth Natekar, Manik Sharma, **Sumukh K Aithal**, Dhruva Kashyap, 
 \[[<span style="color:blue">Paper</span>](https://arxiv.org/abs/2101.06459)\] \[[<span style="color:blue">Video</span>](https://slideslive.com/38942495/robustness-to-augmentations-as-a-generalization-metric)\] 
 \[[<span style="color:blue">Code</span>](https://github.com/sumukhaithal6/pgdl)\]
 <details>
-  <summary>One Sentence Summary</summary>
+  <summary>TLDR</summary>
   
   In this work, we developed a simple yet effective method to predict the generalization performance of a model by using the concept that models that are robust to augmentations are more generalizable than those which are not.
 
@@ -86,7 +101,7 @@ Rajath S\*, **Sumukh Aithal K**\*, Natarajan Subramanyam <br/>
 
 <details>
 
-  <summary>One Sentence Summary</summary>
+  <summary>TLDR</summary>
 
   In this paper, we analyze how well capsule networks adapt to new domains by experimenting with multiple routing algorithms and comparing it with CNNs.
 
