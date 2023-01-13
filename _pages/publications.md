@@ -12,7 +12,7 @@ urlcolor: blue
 
 **Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data**<br/>
 Harsh Rangwani\*, **Sumukh K Aithal\***, Mayank Mishra, R. Venkatesh Babu <br/>
-In Neural Information Processing Systems (**NeurIPS**) 2022. [[Paper]](https://openreview.net/pdf?id=9DYKrsFSU2) [[Code-Coming Soon]](https://github.com/val-iisc/Saddle-LongTail) [[Slides]](https://sumukhaithal6.github.io/files/SaddleLongTail-NeurIPS22-Slides.pdf) [[Poster]](https://sumukhaithal6.github.io/files/SaddleLongTail-NeurIPS22-Poster.pdf)
+In Neural Information Processing Systems (**NeurIPS**) 2022. [[Paper]](https://openreview.net/pdf?id=9DYKrsFSU2) [[Code]](https://github.com/val-iisc/Saddle-LongTail) [[Slides]](https://sumukhaithal6.github.io/files/SaddleLongTail-NeurIPS22-Slides.pdf) [[Poster]](https://sumukhaithal6.github.io/files/SaddleLongTail-NeurIPS22-Poster.pdf)
 <details>
   <summary>TLDR</summary>
  Tail class loss landscape converges to a saddle point in imbalanced datasets and SAM can effectively escape from these solutions.
