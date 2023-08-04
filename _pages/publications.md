@@ -10,6 +10,23 @@ urlcolor: blue
 </style>
 <br/>
 
+**Leveraging the Third Dimension in Contrastive Learning**<br/>
+**Sumukh K Aithal**, Anirudh Goyal, Alex Lamb, Yoshua Bengio, Michael Mozer <br/>
+In NeurIPS 2022 Workshop: Self-Supervised Learning - Theory and Practice.  [[Paper]](https://arxiv.org/abs/2301.11790.pdf) 
+<details>
+  <summary>TLDR</summary>
+    Depth signal improves self-supervised learning.  
+</details>
+
+<!-- <br/> -->
+<details>
+  <summary>Abstract</summary>
+Self-Supervised Learning (SSL) methods operate on unlabeled data to learn robust representations useful for downstream tasks. Most SSL methods rely on augmentations obtained by transforming the 2D image pixel map. These augmentations ignore the fact that biological vision takes place in an immersive three-dimensional, temporally contiguous environment, and that low-level biological vision relies heavily on depth cues. Using a signal provided by a pretrained state-of-the-art monocular RGB-to-depth model (the Depth Prediction Transformer, Ranftl et al., 2021), we explore two distinct approaches to incorporating depth signals into the SSL framework. First, we evaluate contrastive learning using an RGB+depth input representation. Second, we use the depth signal to generate novel views from slightly different camera positions, thereby producing a 3D augmentation for contrastive learning. We evaluate these two approaches on three different SSL methods—BYOL, SimSiam, and SwAV—using ImageNette (10 class subset of ImageNet), ImageNet-100 and ImageNet-1k datasets. We find that both approaches to incorporating depth signals improve the robustness and generalization of the baseline SSL methods, though the first approach (with depth-channel concatena- tion) is superior. For instance, BYOL with the additional depth channel leads to an increase in downstream classification accuracy from 85.3% to 88.0% on ImageNette and 84.1% to 87.0% on ImageNet-C.
+<!-- <br/> -->
+<!-- <br/> -->
+</details>
+
+
 **Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data**<br/>
 Harsh Rangwani\*, **Sumukh K Aithal\***, Mayank Mishra, R. Venkatesh Babu <br/>
 In Neural Information Processing Systems (**NeurIPS**) 2022. [[Paper]](https://openreview.net/pdf?id=9DYKrsFSU2) [[Code]](https://github.com/val-iisc/Saddle-LongTail) [[Slides]](https://sumukhaithal6.github.io/files/SaddleLongTail-NeurIPS22-Slides.pdf) [[Poster]](https://sumukhaithal6.github.io/files/SaddleLongTail-NeurIPS22-Poster.pdf)
