@@ -12,7 +12,8 @@ urlcolor: blue
 
 **Understanding Hallucinations in Diffusion Models through Mode Interpolation**<br/>
 **Sumukh K Aithal**, Pratyush Maini, Zachary C Lipton, J Zico Kolter <br/>
-In ICML 2024 Workshop on Geometry-grounded Representation Learning and Generative Modeling and DMLR Workshop.  [[Paper]](https://arxiv.org/abs/2406.09358) 
+In Neural Information Processing Systems (**NeurIPS**) 2024. <br/> 
+In ICML 2024 Workshop on Geometry-grounded Representation Learning and Generative Modeling and DMLR Workshop.  [[Paper]](https://arxiv.org/abs/2406.09358) [[Code]](https://github.com/locuslab/diffusion-model-hallucination)
 <details>
   <summary>TLDR</summary>
     Mode interpolation leads to hallucinations in diffusion models.
